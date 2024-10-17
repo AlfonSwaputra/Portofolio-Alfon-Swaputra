@@ -1,0 +1,274 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Alfon Swaputra</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <!-- Navigasi Bar -->
+    <header class="nav-container" id="nav-menu">
+        <nav>
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#profile">Profil</a></li>
+                <li><a href="#" onclick="toggleMenu()">Kemampuan</a>
+                <ul class="dropdown" id="dropdown">
+                    <li><a href="#skill">Keahlian</a></li>
+                    <li><a href="#content">Konten</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="logo">
+            <img src="img/logo-portofolio.png" alt="Logo Portofolio">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://wa.wizard.id/4fc2b5">Whatsapp</a></li>
+                <li><a href="https://t.me/alfonswaputra">Telegram</a></li>
+                <li><a href="mailto:alfonswaputra3@gmail.com?subject=Hi,%20saya%20Alfon%20Swaputra%20default&body=Tinggalkan%20pesan%20melalui%20email%20ini%20untuk%20menghubungi%20saya%21">Email</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- End Navigasi Bar -->
+
+    <main>
+        <!-- Introducing MySelf -->
+        <article class="intro" id="intro">
+            <div class="intro-myself">
+                <p>Hi, i'am Alfon Swaputra and I'am</p>
+                <h1>College Student<br>& Web Developer</h1>
+                <p>
+                    I'am study in Universitas Riau since 2018 until now My interest
+                    <br>in websites, made me learn to be a web programmer In the future i hope
+                    <br>to become a Front End developer website professional
+                </p>
+            </div>
+            <div class="img-intro">
+                <img src="img/jumbotron-img.jpg" alt="My Portofolio">
+            </div>
+        </article>
+        <!-- End Introducing MySelf -->
+
+        <!-- My Profile -->
+        <article class="profile" id="profile">
+            <div class="title">
+                <h2>My Profile</h2>
+                <p>All about me &<br>development during education</p>
+            </div>
+            <div class="profile-card">
+                <div class="pcard">
+                    <h3>Studying</h3>
+                    <p>I am studying at Universitas Riau since 2018 until now</p>
+                    <button>
+                        Visit my college
+                        <i class="fas fa-graduation-cap"></i>
+                    </button>
+                </div>
+                <div class="pcard">
+                    <h3>My Project</h3>
+                    <p>My current project is building a website and UI UX research</p>
+                    <button>
+                        Visit my project
+                        <i class="fas fa-tasks"></i>
+                    </button>
+                </div>
+                <div class="pcard">
+                    <h3>Freelancing</h3>
+                    <p>I work as a freelance and I work according to my wishes</p>
+                    <button>
+                        Contact me
+                        <i class="fas fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+        <!-- End My Profile -->
+
+        <!-- My Skill -->
+        <article class="skill" id="skill">
+            <div class="title">
+                <h2>My Skill</h2>
+                <p>The skills I have</p>
+            </div>
+            <div class="skill-bar">
+                <div class="c1">
+                    <p>HTML</p>
+                    <div class="progress">
+                        <div class="html">80%</div>
+                    </div>
+                </div>
+                <div class="c2">
+                    <p>CSS</p>
+                    <div class="progress">
+                        <div class="css">70%</div>
+                    </div>
+                </div>
+                <div class="c3">
+                    <p>JavaScript</p>
+                    <div class="progress">
+                        <div class="js">40%</div>
+                    </div>
+                </div>
+                <div class="c4">
+                    <p>Database MySQL</p>
+                    <div class="progress">
+                        <div class="database">85%</div>
+                    </div>
+                </div>
+                <div class="c5">
+                    <p>PHP</p>
+                    <div class="progress">
+                        <div class="php">40%</div>
+                    </div>
+                </div>
+                <div class="c6">
+                    <p>Figma</p>
+                    <div class="progress">
+                        <div class="figma">92%</div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End My Skill -->
+
+        <!-- My Content -->
+        <article class="my-content" id="content">
+            <div class="title">
+                <h2>My Content</h2>
+                <p>Anything I've ever done</p>
+            </div>
+            <div class="main-content">
+                <div class="ccard1">
+                    <div class="main-card">
+                        <a href="#"><h3>See My Design</h3></a>
+                        <p>I put all the mockups, wireframes and UI assets I've ever worked on</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c1.jpg" alt="Content 1">
+                    </div>
+                </div>
+                <div class="ccard2">
+                    <div class="main-card">
+                        <a href="#"><h3>Figma Project</h3></a>
+                        <p>Here I put all the results of my UI prototype design work</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c2.jpg" alt="Content 2">
+                    </div>
+                </div>
+                <div class="ccard3">
+                    <div class="main-card">
+                        <a href="#"><h3>Visit My Website</h2></a>
+                        <p>I created a website to publish the results of my thoughts while working</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c3.jpg" alt="Content 3">
+                    </div>
+                </div>
+                <div class="ccard4">
+                    <div class="main-card">
+                        <a href="#"><h3>My Education Work</h3></a>
+                        <p>All the work I have done during my bachelor's degree at Riau University</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c4.jpg" alt="Content 4">
+                    </div>
+                </div>
+                <div class="ccard5">
+                    <div class="main-card">
+                        <a href="#"><h3>My Internship</h3></a>
+                        <p>My experience was during my internship at PT Aerofood Indonesia and the projects I worked on</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c5.jpg" alt="Content 5">
+                    </div>
+                </div>
+                <div class="ccard6">
+                    <div class="main-card">
+                        <a href="#"><h3>Animation Design</h3></a>
+                        <p>I made an initial design project for the animation display using Blender 3D software</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c6.jpg" alt="Content 6">
+                    </div>
+                </div>
+                <div class="ccard7">
+                    <div class="main-card">
+                        <a href="#"><h3>Future Project</h3></a>
+                        <p>I explained what I will do in the future after graduating from college and what I want in the future</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c7.jpg" alt="Content 7">
+                    </div>
+                </div>
+                <div class="ccard8">
+                    <div class="main-card">
+                        <a href="#"><h3>All About Me</h3></a>
+                        <p>Here I tell everything related to myself</p>
+                    </div>
+                    <div class="image-card">
+                        <img src="img/c8.jpg" alt="Content 8">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- End My Content -->
+    </main>
+
+    <!-- Aside -->
+    <aside>
+        <div class="social-nav">
+            <ul>
+                <li class="ig">
+                    <a href="https://www.instagram.com/alfonswaputra/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/af.neun?locale=id_ID">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="db">
+                    <a href="https://dribbble.com/Alfon04">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+                <li class="dc">
+                    <a href="https://discord.gg/86Mxe3Tr">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </li>
+                <li class="git">
+                    <a href="https://github.com/AlfonSwaputra">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+    <!-- End Aside -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright">
+            <p>Portofolio Made by Alfon Swaputra</p>
+            <i class="far fa-copyright"></i>
+            <p>2023, Pekanbaru, Riau</p>
+        </div>
+        <img src="img/ft.jpg" alt="">
+    </footer>
+    <!-- End Footer -->
+
+</body>
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+</html>
